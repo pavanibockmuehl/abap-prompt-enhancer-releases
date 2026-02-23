@@ -1,5 +1,11 @@
 # ABAP Prompt Enhancer — MCP Server
 
+<p align="center">
+  <a href="https://github.com/pavanibockmuehl/abap-prompt-enhancer-releases/releases/latest">
+    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_Download_Latest_Release-0078D4?style=for-the-badge&logoColor=white" alt="Download Latest Release" height="48"/>
+  </a>
+</p>
+
 An [MCP](https://modelcontextprotocol.io/) server that transforms simple ABAP development requests into expert-level prompt specifications. It classifies your intent, selects a matching expert template from 18 specialized categories, and returns it in Context Optimization Protocol (COP) format — a compact coded notation that LLMs interpret as detailed, production-grade instructions.
 
 Single binary, no runtime dependencies. Works with Claude Desktop, VS Code (GitHub Copilot), and Eclipse.
