@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://github.com/pavanibockmuehl/abap-prompt-enhancer-releases/releases/latest">
-    <img src="https://img.shields.io/badge/%E2%AC%87%EF%B8%8F_Download_Latest_Release-0078D4?style=for-the-badge&logoColor=white" alt="Download Latest Release" height="48"/>
+    <img src="download-button.svg" alt="Download Latest Release"/>
   </a>
 </p>
 
@@ -14,17 +14,17 @@ Single binary, no runtime dependencies. Works with Claude Desktop, VS Code (GitH
 
 ```mermaid
 flowchart LR
-    A["User: Create a report\nfor sales data"] --> B["MCP Client\n(Claude Desktop,\nVS Code, Eclipse)"]
-    B -- "enhance_prompt" --> C["ABAP Prompt\nEnhancer"]
+    A["User: Create a report<br/>for sales data"] --> B["MCP Client<br/>(Claude Desktop,<br/>VS Code, Eclipse)"]
+    B -- "enhance_prompt" --> C["ABAP Prompt<br/>Enhancer"]
 
     subgraph MCP Server
-        C --> D["Classify Intent\n(keyword matching)"]
-        D --> E["Select Template\n(18 expert templates)"]
-        E --> F["Render & Wrap\nin COP notation"]
+        C --> D["Classify Intent<br/>(keyword matching)"]
+        D --> E["Select Template<br/>(18 expert templates)"]
+        E --> F["Render & Wrap<br/>in COP notation"]
     end
 
     F --> B
-    B --> G["LLM generates\nproduction-ready\nABAP code"]
+    B --> G["LLM generates<br/>production-ready<br/>ABAP code"]
 
     style A fill:#4a9eff,color:#fff
     style G fill:#2ea043,color:#fff
