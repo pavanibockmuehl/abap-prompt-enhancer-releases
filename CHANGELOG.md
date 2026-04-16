@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.5 (2026-04-16)
+
+## Changelog
+* 59d4bac678d933222422ae0119cdea13ed04f588 Add architecture diagrams to README
+
+
+---
+
 ## v1.0.4 (2026-03-16)
 
 ## Changelog
