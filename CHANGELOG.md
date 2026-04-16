@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.0.6 (2026-04-16)
+
+## Changelog
+* 597297dfd538e5406549ae7d166f764e2b3af44b Use dark-mode-friendly colors in README diagrams
+
+
+---
+
 ## v1.0.5 (2026-04-16)
 
 ## Changelog
